@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Animasyon -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+
+
+    <!-- yazılarda kullanıklacak font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Anamenü de kullanılacak font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 header" >
+            <h1>
+                <img src="resimler/globe-americas-solid.svg" class="img-fluid logo" alt="">  
+                WORLD WİLD NEWS
+               
+            </h1>
+           
+        </div>
+    </div>
+</div>
+<!-- Navbar -->
+<nav class="navbar  navbar-expand-lg  menu">
+    <div class="container-fluid">
+      <a class="navbar-brand  " style="color: #eeebdd; font-size: 3vh;"   href="#">BBC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container text-center animasyon">
+          <li class="nav-item">
+            
+            <a class="nav-link active " aria-current="page" href="home.html">HOME</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">NEW</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sport.html">SPORT</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="travel.html">TRAVEL</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="culture.html">CULTURE</a>
+                <div class="line"></div>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+              MORE
+            </a>
+                <div class="line"></div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="contactme.html">CONTACT ME</a>
+                <div class="line"></div></li>
+              <li><a class="dropdown-item" href="aboutme.html">ABOUT ME</a>
+                <div class="line"></div></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html"> SIGN IN</a>
+                <div class="line"></div>
+          </li>
+          
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+  <!-- Search Bar -->
+  <div class="container-fluid">
+      <div class="row mt-2">
+
+          <div class="col-md-12 text-end">
+            
+            <form action="https://www.google.com/?&bih=686&biw=1396&hl=tr" method="Get" >
+                <label for="site-search" style="font-weight: bolder;"><i class="fas fa-search" style="font-size: 20px;"></i> Search in the site:</label>
+                <input type="search" id="site-search" name="q"
+                aria-label="Search through site content"placeholder="search something">
+                <input type="submit" name="submit" id="submit" title="search" >
+                </form>
+          </div> 
+          
+        
+      </div>
+  </div>
+
+
+
+
+    <div class="text-center" style="color:  rgb(22, 22, 104);">
+  
+        <h2>      <i class="fas fa-bus"></i> TRAVEL</h2>
+          </div>
+    <div class="col-10 ">
+        <!-- First New -->
+      <div class="row ">
+        <div class="col-12 d-flex justify-content-center">
+     
+          <div class="col-8">
+            <h3 class="text-center">10 best cities to visit in winter</h3>
+          <div id="carouselExampleControls1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="resimler/travel5png.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+              <div class="carousel-item"  data-bs-interval="2000">
+                <img src="resimler/travel6.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="resimler/travel4.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="resimler/travel3.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="resimler/travel2.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="resimler/travel.png" class="d-block w-100 yukseklik" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+
+    
+          <p>
+            Cold rains, icy sidewalks and gray skies can make winter travel a trial. But hot drinks, snowy slopes, frozen lakes and crisp, blue skies full of fresh air? That's the kind of winter we can all wrap our mittens around.
+            And winter actually seems to bring out the best in some cities. In no particular order, here are 10 around the world that make for a great cold-weather destination: 
+       
+           <h4> 1. Prague, Czech Republic</h4> <br>
+            With its snow-capped spires and cobbled, winding streets, Prague is a fairytale city that remains relatively tourist-free in winter.
+The stunning architecture looks even prettier under a sheet of snow, with one of the most beautiful areas being the old town, with its turrets and Romanesque vaults. Gas street lamps have been reinstalled throughout the city center, adding a romantic hue to evenings. Cafes here are ideal for escaping the bitter cold.
+"Choco Cafe is a great place to take a breather from intense winter sightseeing in the Old Town," says travel blogger Girl in Czechland. "It's full of comfy chairs and sofas and they have more than a dozen kinds of hot chocolate, which is so thick you can practically stand a spoon up it in it."<br>
+           <h4>  2. Salzburg, Austria </h4><br>
+             With its backdrop of Christmas carols and traditional markets, this is a perfect city for a winter break. "Silent Night" was performed for the first time in the Oberndorf on the outskirts of Salzburg on Christmas Eve in 1818.
+             The city's main market is held in the shadow of Salzburg's Hohensalzburg fortress, but the one held in Mirabell Square is especially popular with foodies who come to sample local delicacies such as halusky -- pieces of dumpling mixed with fried bacon. <br>
+            <h4>3. Tromsø, Norway</h4> <br>
+             There are several reasons Tromsø, known as the capital of the Arctic, is great in winter. It's widely regarded as Norway's most beautiful city and is a base for spotting the northern lights.
+There are also several fascinating museums, including the Polar Museum, which offers an insight into the history of Arctic expeditions, and the Tromsø Museum, which is famous for its Sami exhibitions. <br>
+           <h4>4. Amsterdam, Netherlands</h4><br>
+In winter, Amsterdam's museums are much less crowded, making it the time to visit attractions such as Rijksmuseum or the Anne Frank House. Built originally to house a circus, the Royal Carré Theatre is more than 130 years old. Children will love the spectacular performances. <br>
+         <h4>5. Nagano, Japan</h4> <br>
+         <p>As a former Winter Olympics host city, Nagano is a great base for exploring nearby ski resorts. The natural hot springs on the outskirts are perfect after a day on the slopes. Beautiful, snow-covered Buddhist temples are worth checking out, as is the Togakushi Minzoku-kan folklore museum, which has a fascinating display about the ninjas who once trained there.</p>
+          </p>
+          <h4>6. Reykjavík, Iceland</h4> <br>
+          <p>Although Iceland's capital city is one of Europe's coldest spots, it has plenty of natural hot springs to warm up in (some of the best can be found in the Nauthólsvík area of the city). The annual Winter Lights Festival, which takes place in February, is a spectacular celebration.
+            Visitors can try their hand at a range of winter sports or skate on the city's Tjörnin pond. Many cozy coffee houses sell rúgbrauð -- locally made, dark, sweet bread.
+            "An unmissable experience during winter is a dip in one of the city's many outdoor geothermal swimming pools," says Eliza Reid, who co-founded icelandwritersretreat.com with Erica Green. "There is no experience quite like soaking in these naturally warm waters with snowflakes tickling your nose. Each swimming pool has its own character, and everyone has their favorite."</p>
+        </div>
+        </div>
+
+        <div class="row mt-5">
+
+          <h3 class="card-title text-center m-2 " > Meet the cat that guards the Hagia Sophia</h3>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="https://cdni0.trtworld.com/w480/h270/q75/68288_55307_EXGUARDIANV_THUMB_YT_1557419167648_1576156536013.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <div class="d-flex justify-content-start">
+                <button type="button" class="btn btn-outline-warning btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+               Watch the Video
+                    </button>
+                  
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header ">
+                            <h5 class="modal-title text-dark " id="exampleModalLabel">Meet the cat that guards the Hagia Sophia</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        
+                       
+                          <div class="modal-body ">
+                            <div class="d-flex justify-content-md-center align-items-center">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/NAKBZmJ8b5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+              </div>
+            
+            </div>
+          </div>
+          <img class="img-thumbnail" >
+        </div>
+      <div class="col-md-8 d-flex align-items-xl-center justify-content-center">
+               Gli is a cross-eyed adorable cat that has been living in Hagia Sophia for the past 15 years. The Hagia Sophia is more than 2,000 years old and is one of the most extraordinary structures ever built. It has been a temple, church, mosque and museum through its long history.
+           See the Hagia Sophia through the eyes of Gli, the cat who guides.
+           
+           
+      </div>
+      
+    </div>
+      </div>
+
+           <!-- Secand New --> 
+     
+           <!-- Third New -->
+        
+       
+      
+
+   
+ 
+    <div class="col-2">
+      <h2>Latest News</h2>
+        <!-- Fİrst News -->
+        <div class="aside">
+            <div >
+                <img src="https://ichef.bbci.co.uk/images/ic/800x450/p09hjxcz.jpg"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Covid: Biden hails 'great day' as he sheds mask in Oval Office</h5>
+                  <p class="card-text"><strong>President Joe Biden has hailed a "great day for America" as US officials said vaccinated people can go mask-less in most indoor and outdoor settings.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Covid: Biden hails 'great day' as he sheds mask in Oval Office</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16CD7/production/_118499339_gettyimages-1232866042.jpg" class="img-fluid responsive w-50"  alt="">
+                               <img src="https://ichef.bbci.co.uk/images/ic/800x450/p09hjxcz.jpg" class="img-fluid responsive w-50"  alt="...">
+                            </div>
+
+                            <div class="modal-body ">
+                              President Joe Biden has hailed a "great day for America" as US officials said vaccinated people can go mask-less in most indoor and outdoor settings.
+
+                              The president removed his mask in the Oval Office with Republican lawmakers as the guidance was being announced.
+
+                              The advice still calls for wearing masks in crowded indoor settings like buses, planes and hospitals.
+
+                              The Biden administration has faced pressure to ease restrictions on fully vaccinated people.
+
+                              In another major step for the US in returning to pre-pandemic life, the president of the 1.7m-member American Federation of Teachers labour union called for schools to reopen fully in the autumn.
+                              The US coronavirus caseload has fallen to its lowest point since last September, with deaths at their fewest since last April.
+
+                              According to the new guidance from the Centers for Disease Control and Prevention (CDC), physical distancing can also cease for the fully vaccinated.
+
+                              Mr Biden, Vice-President Kamala Harris and staff went without facial coverings during a White House Rose Garden event to trumpet the new guidelines.
+
+                              "We're not going to go out and arrest people," added Mr Biden, urging non-vaccinated Americans to wear masks.
+
+                              His Twitter account posted: "The rule is now simple: get vaccinated or wear a mask until you do. The choice is yours." The US president has no power to order Americans to get vaccinated or wear masks.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+        <!-- Second News -->
+          <div class="aside">
+            <div class="card" >
+                <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/98BB/production/_97599093_breaking_news.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Formula 1: Turkish Grand Prix cancelled and replaced by second Austrian race</h5>
+                  <p class="card-text"><strong>The Turkish Grand Prix has been cancelled just six weeks after it was put on the Formula 1 calendar and replaced by a second race in Austria.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Formula 1: Turkish Grand Prix cancelled and replaced by second Austrian race</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/98BB/production/_97599093_breaking_news.png"  class="img-fluid responsive w-50"  alt="">
+
+                            </div>
+
+                            <div class="modal-body ">
+                              <strong>The Turkish Grand Prix has been cancelled just six weeks after it was put on the Formula 1 calendar and replaced by a second race in Austria.</strong> <br>
+                              Turkey was added to the F1 schedule on 11-13 June to replace the Canadian Grand Prix, which was cancelled because of travel restrictions in Canada.
+
+                              But Turkey has now become unworkable after being put on the UK's travel red list of high-risk countries.
+
+                              F1 will instead run a race at the Red Bull Ring on 25-27 June.
+
+                              That date was originally scheduled for the French Grand Prix, which has now been moved a week earlier to 18-20 June.
+
+                              The move means there will now be races on three consecutive weekends - the French Grand Prix at Paul Ricard, followed by the Styrian Grand Prix and then the Austrian Grand Prix, both at the same track.
+                              F1 president Stefano Domenicali said: "We were all looking forward to racing in Turkey but the travel restrictions in place have meant we are not able to be there in June.
+
+                              "F1 has shown again that it is able to react quickly to developments and find solutions and we are delighted that we will have a double header in Austria, meaning our season remains at 23 races."
+
+                              F1 has a series of protocols aimed at minimising the risk of spreading Covid-19 and says it has conducted 17,000 tests this year with only 15 positive cases, a rate of 0.1%. It says it will "continue to operate in a way that protects the safety of our personnel and the communities we visit".
+
+                              A number of F1 insiders had hoped that the sport's owners, Liberty Media, would not replace Turkey with another event.
+
+                              Teams are already finding the combination of a record 23-race planned schedule and the restrictions on movement imposed on personnel when they return to the UK exhausting.
+
+                              Some senior figures believe that there is no need to keep the number of races so high, when the sport has never had a season this long before.
+
+                              But F1 feels that it makes sense to maintain the number of races that had been planned in the first half of the year because they have concerns about the viability of a number of late-season races.
+
+                              For different reasons, there are uncertainties over the Singapore, Japanese, US, Mexican, Brazilian and Australian Grands Prix.
+
+                              Those races currently comprise the sport's entire schedule for October and November.
+
+                              There are financial implications involving both sponsors and broadcasters that would hit F1's finances - and the prize money paid to teams next year - if the number of races falls too far.
+
+                              Brazil and Mexico are a concern because the scale of the pandemic in those countries means F1 may feel it cannot justify going there.
+
+                              Doubts over Singapore, Japan, the US and Australia are more to do with travel restrictions imposed on foreign visitors by those countries.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+          <!-- Third News -->
+          <div class="aside">
+            <div >
+
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A640/production/_118506524_hi067266916.jpg"   class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Israel intensifies attacks in Gaza as conflict enters fifth day</h5>
+                  <p class="card-text"><strong>Israel has intensified its assault on Gaza, as Palestinian militants continue to fire rockets into Israel on the fifth day of hostilities.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Israel intensifies attacks in Gaza as conflict enters fifth day</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13CE0/production/_118502118_mediaitem118502117.jpg" class="img-fluid responsive w-50"  alt="">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1B6C/production/_118502070_mediaitem118502069.jpg"  class="img-fluid responsive w-50"  alt="...">
+                            </div>
+
+                            <div class="modal-body ">
+                             <strong>Israel has intensified its assault on Gaza, as Palestinian militants continue to fire rockets into Israel on the fifth day of hostilities.</strong><br>
+                             Israel's military said air and ground forces were involved in attacks on Friday but had not entered Gaza.
+
+                            Video from Gaza City showed the night sky lit up by explosions from Israeli artillery, gunboats and air strikes.
+
+                            Some 119 people have been killed in Gaza and eight have died in Israel since fighting began on Monday.
+                            Meanwhile, Jewish and Israeli-Arab mobs have been fighting within Israel, prompting its president to warn of civil war.
+
+                            Defence Minister Benny Gantz ordered a "massive reinforcement" of security forces to suppress the internal unrest that has seen more than 400 people arrested.
+
+                            Police say Israeli Arabs have been responsible for most of the trouble and reject the accusation that they are standing by while gangs of Jewish youths target Arab homes.
+                            This week's violence in Gaza and Israel is the worst since 2014. It came after weeks of rising Israeli-Palestinian tension in East Jerusalem which culminated in clashes at a holy site revered by both Muslims and Jews. Hamas, the militant group that rules Gaza, began firing rockets after warning Israel to withdraw from the site, triggering retaliatory air strikes.
+                            In Gaza, Palestinians fearing an incursion by Israeli troops have been fleeing areas close to the border with Israel. Residents who had left Shejaiya in Gaza City said shells had been falling on homes.
+
+                            "We felt like we were in a horror movie," said local resident Salwa Al-Attar, who escaped the bombardment with her family. "The planes were above us, and the tanks and navy were bombing - and we could not move. The children, women and men were screaming."
+                                                        </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+         
+         
+
+    </div>
+    <div class="col-12">
+          <div class="row">
+              <div class="col-md-12 footer  mx-auto d-flex justify-content-center align-items-center">
+                .&copy;The BBC is not responsible for the content of external sites.
+
+              </div>
+          </div>
+      </div>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/3dee7e3c4e.js" crossorigin="anonymous"></script>
+</body>
+</html>

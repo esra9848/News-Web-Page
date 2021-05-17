@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Animasyon -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+
+
+    <!-- yazılarda kullanıklacak font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Anamenü de kullanılacak font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Header -->
+        <div class="col-md-12 header" >
+            <h1>
+                <img src="resimler/globe-americas-solid.svg" class="img-fluid logo" alt="">  
+                WORLD WILD NEWS
+               
+            </h1>
+           
+        </div>
+    </div>
+</div>
+<!-- Navbar -->
+<nav class="navbar  navbar-expand-lg  menu">
+    <div class="container-fluid">
+      <a class="navbar-brand  " style="color: #eeebdd; font-size: 3vh;"   href="#">BBC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container text-center animasyon">
+          <li class="nav-item">
+            
+            <a class="nav-link active " aria-current="page" href="home.html">HOME</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="news.html">NEW</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sport.html">SPORT</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">TRAVEL</a>
+                <div class="line"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="culture.html">CULTURE</a>
+                <div class="line"></div>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+              MORE
+            </a>
+                <div class="line"></div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="contactme.html">CONTACT ME</a>
+                <div class="line"></div></li>
+              <li><a class="dropdown-item" href="aboutme.html">ABOUT ME</a>
+                <div class="line"></div></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html"> SIGN IN</a>
+                <div class="line"></div>
+          </li>
+          
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+  <!-- Search Bar -->
+  <div class="container-fluid">
+      <div class="row mt-2">
+
+          <div class="col-md-12 text-end">
+            
+            <form action="https://www.google.com/?&bih=686&biw=1396&hl=tr" method="Get" >
+                <label for="site-search" style="font-weight: bolder;"><i class="fas fa-search" style="font-size: 20px;"></i> Search in the site:</label>
+                <input type="search" id="site-search" name="q"
+                aria-label="Search through site content"placeholder="search something">
+                <input type="submit" name="submit" id="submit" title="search" >
+                </form>
+          </div> 
+          
+        
+      </div>
+  </div>
+
+
+
+
+    <div class="text-center" style="color:  rgb(22, 22, 104);">
+  
+        <h2>       <i class="fas fa-film"></i> CULTURE</h2>
+          </div>
+    <div class="col-10 ">
+        <!-- First New -->
+        <div class="row">
+          
+          <div class="col-md-12">
+              <h3 class="text-center">Is Melancholia the greatest film about depression ever made?</h3>
+            <div class="card bg-dark text-white">
+              <img src="https://ychef.files.bbci.co.uk/1600x900/p09hclzc.jpg"  class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay ">
+                <h3 class="card-title ">
+                  <h5>Film</h5>
+                  <p class="CultureImg1 "> The film that got depression right </p>
+                </h3>
+     
+                <p class="card-text fw-bolder  ">
+                  <p class="CultureImg2 " >
+                    Ten years on, why Melancholia is a <br> masterpiece about mental illness
+                  </p></p>
+              
+                <button type="button" class="btn btn-outline-dark  CultureImg2" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                    Read The News
+                      </button>
+                      <i class="fas fa-arrow-right" style="font-size:25px; color: white;"></i>
+                    </div>
+                    </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header ">
+                            <h5 class="modal-title " id="exampleModalLabel">Is Melancholia the greatest film about depression ever made?'</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="d-flex justify-content-md-center align-items-center">
+                            <figure class="figure ">
+                                <div class="d-flex justify-content-center">
+                                    <img src="https://ychef.files.bbci.co.uk/976x549/p09hcmb1.jpg" class="figure-img img-fluid rounded w-75 " alt="...">
+                                
+                                </div>
+                                <figcaption class="figure-caption">The film focuses on the wedding day of Justine (Kirsten Dunst) as her depression engulfs events (Credit: Alamy)</figcaption>
+                              </figure>
+                          <img   alt="">
+                          </div>
+                       
+                          <div class="modal-body ">
+                            <strong>On its premiere, Lars von Trier's drama starring Kirsten Dunst was marred by controversy. But 10 years on, it stands as a masterpiece about mental illness, writes Sophie Monks Kaufman.</strong>      
+                            <p >Ten years ago, this month, the film premiered in Cannes and was immediately mired in controversy when, in the press conference following its first screening, Von Trier said he was a Nazi, causing him to be banned from the festival for seven years. However, now the dust has settled, it deserves to be recognised as an enduring masterpiece, one that came ahead of the cultural discourse's current reckoning with our mental health crisis, and depicted how mental illness can transform the human soul with full-bore cinematic power. </p>
+                            <div><p>In fact, Melancholia is the second in Von Trier's so-called depression trilogy, which also included Antichrist and Nymphomaniac: through all three, he purported to be exploring different manifestations of his own experience of depression using female alter-egos. "A psychological disaster movie" and "a beautiful movie about the end of the world" is how Von Trier described Melancholia at the time of its release. It centres on a young woman, Justine (Kirsten Dunst) – Von Trier's surrogate – who experiences a debilitating depression just as the literal end of the world is nigh, with a blue planet, the titular Melancholia, looming in the sky and set to hit Earth.</p>
+                                <p>The film is divided into two parts. The focus of "Part One: Justine" is Justine's wedding day: as the film opens, we are in a stretch-limousine with Justine and her new husband Michael (Alexander Skarsgård), both giggling as their driver tries to make an impossible turn on a narrow country road. Justine and Michael eventually arrive two hours late to their reception. From here, everything goes downhill as Justine's depression engulfs the day to the heartbreak of Michael, dismay of sister Claire (Charlotte Gainsbourg) and cold incomprehension of filthy rich brother-in-law John (Kiefer Sutherland). However 'Part Two: Claire' flips the script: now, with Melancholia coming ever closer and an apocalypse imminent, the focus is on Claire's mounting anxiety, which contrasts with Justine who, in the grip of depression, calmly accepts their fate. "The Earth is evil. We don't need to grieve for it," she says. Her lucidity stems from her despair, which in the face of imminent obliteration, scans like existential courage and a capacity to face the truth. Meanwhile John reveals himself as a coward – the situation, it is suggested, has shaken the truth about everyone to the surface.</p></div>
+
+                        </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                          
+                          </div>
+                        </div>
+                      </div>
+           
+          </div>
+
+
+          
+        
+          </div>
+          </div>
+          <div class="row mt-5">
+          <h3 class="text-center">Long-awaited 'Friends' cast reunion to air on May 27</h3>
+              <div class="col-md-7">
+                <figure class="figure ">
+  
+                        <img  src="https://cdni0.trtworld.com/w960/h540/q75/105465_USAFriends_1620949067630.jpeg"class="figure-img img-fluid rounded w-75 " alt="...">
+                    
+            
+                    <figcaption class="figure-caption">Cast members from "Friends," which won Outstanding Comedy, series pose at the 54th Annual Emmy Awards at the Shrine Auditorium in Los Angeles, US, 22 September 2002. (AFP</figcaption>
+                  </figure>
+       
+            </div>
+              <div class="col-md-5 ">
+                <strong>HBO Max said more than 15 celebrity guests will make an appearance, including David Beckham, Justin Bieber and K-Pop band BTS.</strong>
+                <p >The unscripted, one-off special was filmed earlier this year on the same sound stage in Los Angeles as the original comedy about six young 20-somethings, played by Jennifer Aniston, Lisa Kudrow, Courtney Cox, David Schwimmer, Matt LeBlanc and Matthew Perry, living in New York.</p><p dir="ltr">"Friends," which ended its 10 year-run on NBC television in 2004, was one of the most popular TV shows of the 1990s and found a new life on streaming platforms where it is one of the most watched shows worldwide.</p>
+    
+    
+              </div>
+              <div class="col-12">
+                <p dir="ltr">News of the broadcast date for the reunion quickly became the top trending item worldwide on Twitter.</p>
+                <p dir="ltr">Cox said she felt "blessed to have reunited with my Friends... and it was better than ever."</p><p dir="ltr">HBO Max said more than 15 celebrity guests would also take part, including former "Friends" cast members Tom Selleck (Richard), and Maggie Wheeler (Janice) and others such as British soccer star David Beckham, "Game of Thrones" actor Kit Harington and Pakistan's Nobel Peace Prize winner Malala Yousafzai.</p>
+              </div>
+            
+    
+          </div>
+        </div>
+    
+       
+      
+
+   
+    </div>
+    <div class="col-2">
+      <h2>Latest News</h2>
+        <!-- Fİrst News -->
+        <div class="aside">
+            <div >
+                <img src="https://ichef.bbci.co.uk/images/ic/800x450/p09hjxcz.jpg"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Covid: Biden hails 'great day' as he sheds mask in Oval Office</h5>
+                  <p class="card-text"><strong>President Joe Biden has hailed a "great day for America" as US officials said vaccinated people can go mask-less in most indoor and outdoor settings.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Covid: Biden hails 'great day' as he sheds mask in Oval Office</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16CD7/production/_118499339_gettyimages-1232866042.jpg" class="img-fluid responsive w-50"  alt="">
+                               <img src="https://ichef.bbci.co.uk/images/ic/800x450/p09hjxcz.jpg" class="img-fluid responsive w-50"  alt="...">
+                            </div>
+
+                            <div class="modal-body ">
+                              President Joe Biden has hailed a "great day for America" as US officials said vaccinated people can go mask-less in most indoor and outdoor settings.
+
+                              The president removed his mask in the Oval Office with Republican lawmakers as the guidance was being announced.
+
+                              The advice still calls for wearing masks in crowded indoor settings like buses, planes and hospitals.
+
+                              The Biden administration has faced pressure to ease restrictions on fully vaccinated people.
+
+                              In another major step for the US in returning to pre-pandemic life, the president of the 1.7m-member American Federation of Teachers labour union called for schools to reopen fully in the autumn.
+                              The US coronavirus caseload has fallen to its lowest point since last September, with deaths at their fewest since last April.
+
+                              According to the new guidance from the Centers for Disease Control and Prevention (CDC), physical distancing can also cease for the fully vaccinated.
+
+                              Mr Biden, Vice-President Kamala Harris and staff went without facial coverings during a White House Rose Garden event to trumpet the new guidelines.
+
+                              "We're not going to go out and arrest people," added Mr Biden, urging non-vaccinated Americans to wear masks.
+
+                              His Twitter account posted: "The rule is now simple: get vaccinated or wear a mask until you do. The choice is yours." The US president has no power to order Americans to get vaccinated or wear masks.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+        <!-- Second News -->
+          <div class="aside">
+            <div class="card" >
+                <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/98BB/production/_97599093_breaking_news.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Formula 1: Turkish Grand Prix cancelled and replaced by second Austrian race</h5>
+                  <p class="card-text"><strong>The Turkish Grand Prix has been cancelled just six weeks after it was put on the Formula 1 calendar and replaced by a second race in Austria.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Formula 1: Turkish Grand Prix cancelled and replaced by second Austrian race</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/98BB/production/_97599093_breaking_news.png"  class="img-fluid responsive w-50"  alt="">
+
+                            </div>
+
+                            <div class="modal-body ">
+                              <strong>The Turkish Grand Prix has been cancelled just six weeks after it was put on the Formula 1 calendar and replaced by a second race in Austria.</strong> <br>
+                              Turkey was added to the F1 schedule on 11-13 June to replace the Canadian Grand Prix, which was cancelled because of travel restrictions in Canada.
+
+                              But Turkey has now become unworkable after being put on the UK's travel red list of high-risk countries.
+
+                              F1 will instead run a race at the Red Bull Ring on 25-27 June.
+
+                              That date was originally scheduled for the French Grand Prix, which has now been moved a week earlier to 18-20 June.
+
+                              The move means there will now be races on three consecutive weekends - the French Grand Prix at Paul Ricard, followed by the Styrian Grand Prix and then the Austrian Grand Prix, both at the same track.
+                              F1 president Stefano Domenicali said: "We were all looking forward to racing in Turkey but the travel restrictions in place have meant we are not able to be there in June.
+
+                              "F1 has shown again that it is able to react quickly to developments and find solutions and we are delighted that we will have a double header in Austria, meaning our season remains at 23 races."
+
+                              F1 has a series of protocols aimed at minimising the risk of spreading Covid-19 and says it has conducted 17,000 tests this year with only 15 positive cases, a rate of 0.1%. It says it will "continue to operate in a way that protects the safety of our personnel and the communities we visit".
+
+                              A number of F1 insiders had hoped that the sport's owners, Liberty Media, would not replace Turkey with another event.
+
+                              Teams are already finding the combination of a record 23-race planned schedule and the restrictions on movement imposed on personnel when they return to the UK exhausting.
+
+                              Some senior figures believe that there is no need to keep the number of races so high, when the sport has never had a season this long before.
+
+                              But F1 feels that it makes sense to maintain the number of races that had been planned in the first half of the year because they have concerns about the viability of a number of late-season races.
+
+                              For different reasons, there are uncertainties over the Singapore, Japanese, US, Mexican, Brazilian and Australian Grands Prix.
+
+                              Those races currently comprise the sport's entire schedule for October and November.
+
+                              There are financial implications involving both sponsors and broadcasters that would hit F1's finances - and the prize money paid to teams next year - if the number of races falls too far.
+
+                              Brazil and Mexico are a concern because the scale of the pandemic in those countries means F1 may feel it cannot justify going there.
+
+                              Doubts over Singapore, Japan, the US and Australia are more to do with travel restrictions imposed on foreign visitors by those countries.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+          <!-- Third News -->
+          <div class="aside">
+            <div >
+
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A640/production/_118506524_hi067266916.jpg"   class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Israel intensifies attacks in Gaza as conflict enters fifth day</h5>
+                  <p class="card-text"><strong>Israel has intensified its assault on Gaza, as Palestinian militants continue to fire rockets into Israel on the fifth day of hostilities.</strong></p>
+                  <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    Read More
+                      </button>
+
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Israel intensifies attacks in Gaza as conflict enters fifth day</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/13CE0/production/_118502118_mediaitem118502117.jpg" class="img-fluid responsive w-50"  alt="">
+                               <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1B6C/production/_118502070_mediaitem118502069.jpg"  class="img-fluid responsive w-50"  alt="...">
+                            </div>
+
+                            <div class="modal-body ">
+                             <strong>Israel has intensified its assault on Gaza, as Palestinian militants continue to fire rockets into Israel on the fifth day of hostilities.</strong><br>
+                             Israel's military said air and ground forces were involved in attacks on Friday but had not entered Gaza.
+
+                            Video from Gaza City showed the night sky lit up by explosions from Israeli artillery, gunboats and air strikes.
+
+                            Some 119 people have been killed in Gaza and eight have died in Israel since fighting began on Monday.
+                            Meanwhile, Jewish and Israeli-Arab mobs have been fighting within Israel, prompting its president to warn of civil war.
+
+                            Defence Minister Benny Gantz ordered a "massive reinforcement" of security forces to suppress the internal unrest that has seen more than 400 people arrested.
+
+                            Police say Israeli Arabs have been responsible for most of the trouble and reject the accusation that they are standing by while gangs of Jewish youths target Arab homes.
+                            This week's violence in Gaza and Israel is the worst since 2014. It came after weeks of rising Israeli-Palestinian tension in East Jerusalem which culminated in clashes at a holy site revered by both Muslims and Jews. Hamas, the militant group that rules Gaza, began firing rockets after warning Israel to withdraw from the site, triggering retaliatory air strikes.
+                            In Gaza, Palestinians fearing an incursion by Israeli troops have been fleeing areas close to the border with Israel. Residents who had left Shejaiya in Gaza City said shells had been falling on homes.
+
+                            "We felt like we were in a horror movie," said local resident Salwa Al-Attar, who escaped the bombardment with her family. "The planes were above us, and the tanks and navy were bombing - and we could not move. The children, women and men were screaming."
+                                                        </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                          </div>
+                        </div>
+
+            </div>
+                </div>
+              </div>
+          </div>
+         
+         
+
+    </div>
+    <div class="col-12">
+          <div class="row">
+              <div class="col-md-12 footer  mx-auto d-flex justify-content-center align-items-center">
+                .&copy;The BBC is not responsible for the content of external sites.
+
+              </div>
+          </div>
+      </div>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/3dee7e3c4e.js" crossorigin="anonymous"></script>
+</body>
+</html>

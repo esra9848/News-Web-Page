@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Animasyon -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+
+
+    <!-- yazılarda kullanıklacak font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Anamenü de kullanılacak font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 header" >
+                <h1>
+                    <img src="resimler/globe-americas-solid.svg" class="img-fluid logo" alt="">  
+                    WORLD WİLD NEWS
+                   
+                </h1>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar  navbar-expand-lg  menu">
+        <div class="container-fluid">
+          <a class="navbar-brand  " style="color: #eeebdd; font-size: 3vh;"   href="#">BBC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container text-center animasyon">
+              <li class="nav-item">
+                
+                <a class="nav-link active size" aria-current="page" href="home.html">HOME</a>
+                    <div class="line"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">NEW</a>
+                    <div class="line"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sport.html">SPORT</a>
+                    <div class="line"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travel.html">TRAVEL</a>
+                    <div class="line"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="culture.html">CULTURE</a>
+                    <div class="line"></div>
+              </li>
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff;">
+                  MORE
+                </a>
+                    <div class="line"></div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="contactme.html">CONTACT ME</a>
+                    <div class="line"></div></li>
+                  <li><a class="dropdown-item" href="aboutme.html">ABOUT ME</a>
+                    <div class="line"></div></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html"> SIGN IN</a>
+                    <div class="line"></div>
+              </li>
+              
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+      <!-- Search Bar -->
+      <div class="container-fluid">
+          <div class="row mt-2">
+
+              <div class="col-md-12 text-end">
+                
+                <form action="https://www.google.com/?&bih=686&biw=1396&hl=tr" method="Get" >
+                    <label for="site-search" style="font-weight: bolder;"><i class="fas fa-search" style="font-size: 20px;"></i> Search in the site:</label>
+                    <input type="search" id="site-search" name="q"
+                    aria-label="Search through site content"placeholder="search something">
+                    <input type="submit" name="submit" id="submit" title="search" >
+                    </form>
+              </div> 
+              
+            
+          </div>
+      </div>
+      <!-- News Section -->
+      <div class="container-fluid  ">
+          <div class="row mt-5  mb-5">
+        <div class="card border-primary mb-3   "  style="border: transparent;" >
+            <div class="card-header d-flex justify-content-center">
+              <i class="far fa-newspaper"></i>
+                <a href="news.html"  class="LinkCss">News</a>
+            </div>
+            <h3 class="card-title text-center " >Coronavirus in India: 'My city is under siege from Covid-19'</h3>
+            <div class="d-flex justify-content-around align-items-center mt-2">
+             <img src="resimler/CoronaVırus.png" alt="Coronavirus image in India" class="img-fluid resim ">
+            </div>
+                <div class="card-body text-center ">
+                
+                <p class="card-text fw-bolder">The BBC's Vikas Pandey has called Delhi home for more than a decade - but life
+                     in India's capital has changed beyond recognition under a deadly second 
+                     wave of Covid-19 infections.</p>
+                    <button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Read More
+                      </button>
+                    
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                          <div class="modal-content">
+                            <div class="modal-header ">
+                              <h5 class="modal-title " id="exampleModalLabel">Coronavirus in India: 'My city is under siege from Covid-19'</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex justify-content-md-center align-items-center">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/LYQLr45rtZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                            </div>
+                         
+                            <div class="modal-body ">
+                                The BBC's Vikas Pandey has called Delhi home for more than a decade - but life in India's capital has changed beyond recognition under a deadly second wave of Covid-19 infections.
+
+                                For more than a month now, people have been desperately trying to find help for their loved ones amid acute shortages of hospital beds, crucial drugs and oxygen. But thousands have died, many without receiving the treatment they needed.
+                                
+                                Here Vikas Pandey, along with his colleague Anshul Verma, take us on a journey through the city, and the daily struggle of finding medical care, oxygen cylinders and even a space at a crematorium.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                            
+                            </div>
+                          </div>
+                        </div>
+             
+            </div>
+
+    </div>
+      </div>
+    </div>
+        </div>
+
+
+        <!-- Sport Section -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="card-header d-flex justify-content-center">
+              <i class="fas fa-running"></i>
+              <a href="sport.html" class="LinkCss"> SPORT</a>
+            </div>
+
+            <h3 class="card-title text-center " >Fifa to hold Women's Club World Cup 'very soon'</h3>
+            <div class="col-md-4">
+              <div class="d-flex justify-content-start align-items-start mt-2 ms-3">
+                <img class="img-fluid " src="https://cdni0.trtworld.com/w960/h540/q75/104807_GBT20110711WomensWorldCupREUTERS_1620226026259.jpeg" >
+              </div>
+            </div>
+            <div class="col-md-8 mt-3">
+             <b>
+              Fifa President Gianni Infantino says he looks forward to the first edition of the already
+              agreed new 24-team men's Club World Cup 
+             but a women's version is in the pipeline too.
+             </b> <br>
+             Fifa President Gianni Infantino has said a new Women's Club World Cup is being planned as part of a plan to "revolutionise" the female game.
+
+            In an interview with French sports newspaper L'Equipe, Infantino said he was looking forward to the first edition of the already agreed new 24-team men's Club World Cup but said a women's version was in the pipeline too.
+
+            "My dream is also to see the birth of the very first Women's Club World Cup. It’s coming very soon. And it will really revolutionise women's football," he said.
+            Such a tournament would allow for the top European teams from UEFA's Women's Champions League to face off with clubs from the United States' National Women's Soccer League as well as sides from countries where the women's game is still developing.
+
+            The US women's national team are the current world champions and the dominant force in the game. However, top European men's clubs have invested heavily in their women's sides in recent years.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 mt-3">
+              Infantino has previously floated the idea of the Women's World Cup, for national sides, being played every two years rather than the current four year cycle.
+
+              The Club World Cup is being expanded from a relatively low-key tournament involving seven teams, including just one from Europe, to a 24-team event including eight sides from Europe which Fifa hopes will be a major revenue generator, similar to the World Cup itself.  4
+              The first version of the new tournament was due to be held in China in June and July this year but was postponed after the Covid-19 pandemic forced the 2020 European Championship to be delayed by 12 months.
+
+              FIFA's current position is that the Club World Cup is an event to be held every four years, but previously there has been talk of it being an annual one.
+
+              "What I'm sure is that this new competition will eventually become the best club event in the world, and help develop football on all continents. It will offer a real possibility for clubs from all regions to reach the highest level while giving the big clubs, especially European ones, a unique playing field in which to compete," he said.
+
+
+            </div>
+       <div class="col-md-4">
+        <div class="d-flex justify-content-md-end align-items-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tSQFduErrWY" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+           clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+       </div>
+          </div>
+        </div>
+
+          <!-- Treval Section -->
+        <div class="container-fluid">
+          <div class="row mt-5">
+         
+              <div class="card-header d-flex justify-content-center">
+                <i class="fas fa-bus"></i>
+                  <a href="travel.html"  class="LinkCss">Travel</a>
+              </div>
+              <h3 class="card-title text-center m-2 " > Meet the cat that guards the Hagia Sophia</h3>
+            <div class="col-md-4">
+              <div class="card bg-dark text-white">
+                <img src="https://cdni0.trtworld.com/w480/h270/q75/68288_55307_EXGUARDIANV_THUMB_YT_1557419167648_1576156536013.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <div class="d-flex justify-content-start">
+                    <button type="button" class="btn btn-outline-warning btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                   Watch the Video
+                        </button>
+                      
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <!-- modal-dialog-centered ile pencere tam olarak ortalanır  -->
+                          <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header ">
+                                <h5 class="modal-title text-dark " id="exampleModalLabel">Meet the cat that guards the Hagia Sophia</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                            
+                           
+                              <div class="modal-body ">
+                                <div class="d-flex justify-content-md-center align-items-center">
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/NAKBZmJ8b5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+
+                              </div>
+                            </div>
+                          </div>
+                       </div>
+                  </div>
+                
+                </div>
+              </div>
+              <img class="img-thumbnail" >
+            </div>
+          <div class="col-md-8 d-flex align-items-xl-center justify-content-center">
+                   Gli is a cross-eyed adorable cat that has been living in Hagia Sophia for the past 15 years. The Hagia Sophia is more than 2,000 years old and is one of the most extraordinary structures ever built. It has been a temple, church, mosque and museum through its long history.
+               See the Hagia Sophia through the eyes of Gli, the cat who guides.
+               
+               
+          </div>
+          
+        </div>
+      </div>
+
+
+      <!-- Culture Section -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-header d-flex justify-content-center">
+            <i class="fas fa-film"></i>
+              <a href="culture.html"  class="LinkCss">Culture</a>
+          </div>
+        <div class="col-md-12">
+          <div class="card bg-dark text-white">
+            <img src="https://ychef.files.bbci.co.uk/1600x900/p09hclzc.jpg"  class="card-img img-fluid" alt="...">
+            <div class="card-img-overlay ">
+              <h3 class="card-title ">
+                <h5>Film</h5>
+                <a href="culture.html" class="CultureImg1 "> The film that got depression right</a>
+              </h3>
+   
+              <p class="card-text fw-bolder  ">
+                <a href="culture.html" class="CultureImg2 " >
+                  Ten years on, why Melancholia is a <br> masterpiece about mental illness
+                </a></p>
+              <p class="card-text "><a href="culture.html" class="CultureImg2">Read More</a> <i class="fas fa-arrow-right" style="font-size:25px; color: white;"></i></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-md-12 footer  mx-auto d-flex justify-content-center align-items-center">   
+              &copy;The BBC is not responsible for the content of external sites.
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+      
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/3dee7e3c4e.js" crossorigin="anonymous"></script>
+</body>
+</html>
